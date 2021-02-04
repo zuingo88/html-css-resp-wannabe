@@ -1,3 +1,63 @@
-@@media all and (max-width: 420px) {
-    
+@media all and (max-width: 420px) {
+
+  /* generico */
+  .row {
+    width: 95%;
+    margin-top: 0;
+    font-size: 0.8em;
+  }
+
+  h1 {
+    margin: 30px auto;
+  }
+
+  /* BLOCCO LEZIONI */
+  #lezioni {
+    margin-bottom: 30px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 45%;
+    margin: 0 calc(10% / 4);
+  }
+
+  #lezioni .row img {
+    height: 80px;
+  }
+
+  /* BLOCCO STEPS */
+  #steps {
+    border: solid 1px #A7A7A7;
+    border-radius: 10px;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #steps .row img {
+    height: 150px;
+  }
+
+  /* BLOCCO WHY */
+  #why {
+    background-color: white;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #why .row img {
+    height: 90px;
+  }
 }
