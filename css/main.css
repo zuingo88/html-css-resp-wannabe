@@ -3,6 +3,7 @@
   /* generico */
   .row {
     width: 95%;
+    min-width: 340px;
     margin-top: 0;
     font-size: 0.8em;
   }
