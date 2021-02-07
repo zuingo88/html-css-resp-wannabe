@@ -19,12 +19,14 @@
 
   #lezioni .row>.left,
   #lezioni .row>.right {
-    width: 45%;
-    margin: 0 calc(10% / 4);
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
   }
 
   #lezioni .row img {
-    height: 80px;
+    width: auto;
+    height: 100px;
   }
 
   /* BLOCCO STEPS */
